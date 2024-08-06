@@ -1,18 +1,19 @@
-# Currency Converter
+# Snake Game
 
-This project is a Currency Converter application developed using HTML, CSS, and JavaScript. The application fetches real-time exchange rates from a currency conversion API and allows users to convert amounts between different currencies.
+This project is a classic Snake game implemented using HTML, CSS, and JavaScript. The game features simple yet engaging gameplay where the player controls a snake that grows longer as it consumes food. The objective is to achieve the highest possible score without colliding with the walls or itself.
 
-**Features:**
-- **API Integration:** Fetches real-time exchange rates using a reliable currency conversion API.
-- **Promises:** Utilizes JavaScript promises to handle asynchronous API requests.
-- **DOM Manipulation:** Dynamically updates the DOM to display conversion results and currency options.
-- **3D Interaction:** Adds a 3D transformation effect to the container for a modern and interactive user experience.
-- **Responsive Design:** Ensures the application is accessible and functional on various devices and screen sizes.
-- **Object-Oriented Programming (OOP):** Implements OOP principles for better code organization and maintainability.
+## Features
 
-**Technologies Used:**
-- **HTML:** Structure and layout of the application.
-- **CSS:** Styling and 3D transformations for a modern look and feel.
-- **JavaScript:** Core functionality, including API requests, DOM manipulation, and interactive features.
+- **Canvas Rendering**: Utilizes the HTML5 `<canvas>` element for game rendering, allowing for smooth graphics and animations.
+- **Score Display**: Shows the current score on the canvas with white text for better visibility.
+- **Game Mechanics**: Includes basic game mechanics such as snake movement, collision detection, and food generation.
+- **Restart Functionality**: Provides a button to restart the game, allowing players to easily start a new game session.
+- **Responsive Design**: Ensures the game canvas and controls are centered and styled for a good user experience on different screen sizes.
 
-This project showcases a comprehensive use of web development technologies and techniques, making it a valuable addition to any developer's portfolio.
+## Technologies Used
+
+- **HTML**: Structure and layout of the game interface.
+- **CSS**: Styling for the game container, canvas, and restart button, ensuring a modern and user-friendly appearance.
+- **JavaScript**: Core game logic, including rendering, user input handling, and game state management.
+
+This project demonstrates fundamental game development concepts and provides a fun and interactive experience for users.
